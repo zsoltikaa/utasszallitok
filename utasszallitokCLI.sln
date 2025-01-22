@@ -3,17 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utasszallitokCLI", "utasszallitokCLI\utasszallitokCLI.csproj", "{C5F1A203-293F-4AFB-8714-D21441A7CF1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "utasszallitokCLI", "utasszallitokCLI\utasszallitokCLI.csproj", "{C5F1A203-293F-4AFB-8714-D21441A7CF1A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{69143D04-5923-4189-8177-1377DFE254FB}"
 	ProjectSection(SolutionItems) = preProject
 		csharp.txt = csharp.txt
 		UTASSZALLITOK.pdf = UTASSZALLITOK.pdf
 		utasszallitok.txt = utasszallitok.txt
-		utasszallitok_new.txt = utasszallitok_new.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachKalkulatorGUI", "utasszallitokGUI\MachKalkulatorGUI.csproj", "{16796650-0E32-4373-A776-321CB90E8B33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MachKalkulatorGUI", "utasszallitokGUI\MachKalkulatorGUI.csproj", "{16796650-0E32-4373-A776-321CB90E8B33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,5 +31,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {364701E5-5152-4EC2-B6EE-634CE2F105B0}
 	EndGlobalSection
 EndGlobal
